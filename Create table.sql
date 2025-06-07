@@ -1,0 +1,32 @@
+DROP TABLE TABLE1;
+
+SQL : Structured Query Language
+
+CREATE TABLE TABLE1 (
+  SNO VARCHAR(50),
+  SNAME VARCHAR(50),
+  CLUB VARCHAR(50),
+  CITY VARCHAR(50),
+  AGE INTEGER
+);
+
+DROP TABLE TABLE1;
+
+INSERT INTO TABLE1 (SNO, SNAME, CLUB, CITY, AGE) VALUES
+  ('1', 'Kwasi','London', 'Sefwi-Bekwai', 12),
+  ('2', 'Akash', 'Paris','Kolkata', 12),
+  ('3', 'Abhiraj','Paris','Malda', 12),
+  ('4', 'Jeffin','London','CHennai', 12),
+  ('5', 'Codingal', 'Athens', 'Bangalore', 12);
+
+SELECT * FROM TABLE1;
+
+SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'TABLE1' AND COLUMN_NAME = 'SNO';
+
+
+
+SELECT *
+FROM TABLE1
+ORDER BY SNAME DESC;
