@@ -8,6 +8,11 @@ CREATE TABLE Students
     EnrollmentDate DATE
 );
 
+
+
+
+
+
 Select Name,Age from Students where Age >= 12;
 
 
