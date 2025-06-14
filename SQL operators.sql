@@ -1,0 +1,1 @@
+Select MIN(AGE) from DETAILS;

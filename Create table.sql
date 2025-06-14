@@ -14,16 +14,14 @@ DROP TABLE DETAILS;
 
 INSERT INTO DETAILS (SNO, SNAME, CLUB, CITY, AGE) VALUES
   ('1', 'Kwasi','London', 'Sefwi-Bekwai', 12),
-  ('2', 'Akash', 'Paris','Kolkata', 12),
-  ('3', 'Abhiraj','Paris','Malda', 12),
-  ('4', 'Jeffin','London','CHennai', 12),
-  ('5', 'Codingal', 'Athens', 'Bangalore', 12);
+  ('2', 'Akash', 'Paris','Kolkata', 30),
+  ('3', 'Abhiraj','Paris','Malda', 10),
+  ('4', 'Jeffin','London','CHennai', 15),
+  ('5', 'Codingal', 'Athens', 'Bangalore', 20);
 
 SELECT * FROM DETAILS;
 
-SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH
-FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = 'TABLE1' AND COLUMN_NAME = 'SNO';
+
 
 
 
